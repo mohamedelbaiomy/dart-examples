@@ -1,0 +1,51 @@
+Main Function:
+
+  * Create an empty list called tasks to store the user's tasks.
+  * then make a while loop ( because the app continues running until the user chooses to exit the application )
+  * Inside the while loop, the code prints four statements ( the main menu of the application )
+
+         enter 1 to "Add Task",
+
+         enter 2 to "Remove Task",
+
+         enter 3 to "View Tasks",
+
+         enter 4 to  "Exit".
+
+     and then take the input from the user and perform the function depends on user input.
+
+   * make switch statement to handle the different user choices.
+
+
+Add Task Function:
+
+   * If the user chooses option "1" (Add Task), the addTask() function is called.
+   * take the input from the user and add it to the list using add function in lists.
+
+
+Remove Task Function:
+
+   * If the user chooses option "2" (Remove Task), the removeTask() function is called.
+
+   * The removeTask() function first checks if the tasks list is empty. If it is,
+     it prints a message indicating that there are no tasks to remove.
+
+   * If the tasks list is not empty, the function asks the user to enter the task number to be removed.
+
+   * If the task number is valid (between 1 and the number of tasks), the task is removed from the tasks list
+     using removeAt function in lists, and a success message is printed. If the task number is invalid, an error message is printed.
+
+
+
+View Tasks Function:
+
+   * If the user chooses option "3" (View Tasks), the viewTasks() function is called.
+
+   * The viewTasks() function first checks if the tasks list is empty. If it is, it prints a message indicating that there are no tasks to display.
+
+   * If the tasks list is not empty, the function prints all the tasks in the list.
+
+
+Exit :
+
+   * If the user chooses option "4" (Exit), terminating the program.

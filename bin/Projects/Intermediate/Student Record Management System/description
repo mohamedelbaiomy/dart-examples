@@ -1,0 +1,45 @@
+Student Record Management System
+
+
+1) Create a class named "Student" with attributes name (String) , age (int) , grade (double) , phone (String)
+   and a constructor to initialize these attributes using named parameter
+
+   * Implement a void function to update degree & phone : this function takes two parameters (newGrade & phone)
+     and assign these values to the grade and phone (attributes).
+   * Implement a void function to just display the values of the attributes.
+
+2) Make a list called studentRecord of the type Student.
+
+
+3) Implement a function to add a new student to the system
+
+   * take input for name, age, grade, and phone.
+   * make an object and pass these variables to the class by the constructor.
+   * add this object to the list using (add) function.
+
+4) Implement a function to update a student's information (change their grade or contact details).
+
+   * the function must take the name of the user as an input and search in the list about that user.
+   * if the name exists , you can take input for grade & phone and call update function
+     you have done in the class to update these value.
+
+5) Implement a function to search for a student by their name and display their information if found.
+
+   * the function must take the name of the user as an input and search in the list about the user.
+   * if the name exists , call the display function you have done in the class to display all user information.
+
+6) Use a loop to display a menu with options for the user to perform different operations
+   (add a student, update student information , search for a student, exit the system).
+
+   * make while loop with a condition (true) , and take an input from the user as a choice
+
+     1. Add a student
+     2. Update student information
+     3. Search for a student
+     4. Display all students
+     5. Exit
+
+   use switch case to perform this
+
+
+* Best of Luck *
