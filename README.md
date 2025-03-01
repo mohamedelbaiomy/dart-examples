@@ -25,7 +25,7 @@ Welcome to the Dart Language Guide! This repository is your one-stop resource fo
 ## How to Use 🛠️
 - Clone the repository:
 ```
-git clone https://github.com/your-username/dart-language-guide.git
+git clone https://github.com/mohamedelbaiomy/dart-examples.git
 ```
 - Navigate through the folders to find the topic you're interested in.
 - Read the explanations, study the examples, and review the handwritten summaries.
